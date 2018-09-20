@@ -118,6 +118,22 @@ header {
     font-size: 18px;
 }
 
+.quote-btn-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.quote-btn {
+    color: #ffffff;
+    background-color: #66B6D3;
+    font-size: 18px;
+    border: none;
+    padding: .8rem 4rem;
+    box-shadow: 0 5px 20px rgba(0,0,0, .4);
+}
+
+
 @media (max-width: 768px) {
     ul.topnav li a.nav-link {
         display: none;
